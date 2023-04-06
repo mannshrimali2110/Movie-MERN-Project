@@ -271,7 +271,7 @@ ul {
 .description {
   text-align: center;
   color: white;
-  font-weight: 300; 
+  font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
   /* display: grid; */
@@ -281,11 +281,11 @@ ul {
   align-items: center;
 }
 
-.genre{
+.genre {
   color: gold;
 }
 
-.movienm{
-  color:#e91e63;
+.movienm {
+  color: #e91e63;
   text-decoration: none;
 }
