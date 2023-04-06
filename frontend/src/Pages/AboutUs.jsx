@@ -2,6 +2,7 @@ import React from 'react'
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 export default function AboutUs() {
+
   return (
     <>
       <div className='eight'><br />
@@ -63,7 +64,9 @@ export default function AboutUs() {
             <Col></Col>
             <Col></Col>
             <Col>
-              <button className='git'>Go To Github</button>
+              <a href="https://github.com/mannshrimali2110/Movie-MERN-Project" target="_blank" rel="noopener noreferrer">
+                <button className='git'>Go To Github</button>
+              </a>
             </Col>
             <Col></Col>
             <Col></Col>
