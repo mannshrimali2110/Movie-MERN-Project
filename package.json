@@ -1,0 +1,15 @@
+{
+  "name": "mern-capstone-project",
+  "version": "1.0.0",
+  "description": "Movie Suggestion Website",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd ./server && npm run dev",
+    "frontend": "cd ./frontend && npm start"
+  },
+  "author": "Mann Shrimali , Divija Panchal , Hetvi Kuvardiya",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}

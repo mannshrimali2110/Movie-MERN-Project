@@ -1,0 +1,5 @@
+.card-title{
+    color: blueviolet;
+    justify-content: center;display: flex;
+    border: 1px solid black;
+}
