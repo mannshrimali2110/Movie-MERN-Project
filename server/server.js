@@ -7,11 +7,10 @@ const apiRoute2 = require('./Routes/apiRoutes2');
 const apiRoute3 = require('./Routes/apiRoutes3');
 const apiRoute4 = require('./Routes/apiRoutes4');
 
+const PORT = process.env.PORT || 5000;
+const app = express();
 myMongoConnect();
 
-const PORT = process.env.PORT || 5000;
-
-const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
