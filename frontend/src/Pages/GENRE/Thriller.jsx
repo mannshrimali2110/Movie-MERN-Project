@@ -34,14 +34,14 @@ function Thriller() {
               <div key={id}>
                 <h2> {id + 1}   <span>:  <a className="movienm" href={movie.Movie_link} target="_blank" rel="noopener noreferrer">{movie.MovieName} </a> {movie.Year}</span></h2>
                 <br />
-                <h3>Genre : <h3 className="genre">{movie.Genre[0]} , {movie.Genre[1]} , {movie.Genre[2]} </h3></h3>
+                <h3>Genre : <span className="genre">{movie.Genre[0]} , {movie.Genre[1]} , {movie.Genre[2]} </span></h3>
                 <br />
                 <img className="imgborder" src={movie.IMLink} alt="INITIALIMG" width='200' />
 
                 <h2> RATINGS :
-                  <h2 className="genre">{movie.Rating} </h2>  </h2>
+                  <span className="genre">{movie.Rating} </span>  </h2>
                 <br />
-                <p className="desc">DESCRIPTION : <p className="genre"> {movie.Description}</p></p>
+                <p className="desc">DESCRIPTION : <span className="genre"> {movie.Description}</span></p>
                 <hr className="redhr" />
               </div>
             ))}
