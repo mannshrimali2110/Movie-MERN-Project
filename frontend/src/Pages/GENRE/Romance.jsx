@@ -32,7 +32,7 @@ function Romance() {
           <div className="border_">
             {movies.map((movie, id) => (
               <div key={id}>
-                <h2> {id + 1}   <span>:  <a className="movienm" href={movie.Movie_link}>{movie.MovieName} </a> {movie.Year}</span></h2>
+                <h2> {id + 1}   <span>:  <a className="movienm" href={movie.Movie_link} target="_blank" rel="noopener noreferrer">{movie.MovieName} </a> {movie.Year}</span></h2>
                 <br />
                 <h3>Genre : <h3 className="genre">{movie.Genre[0]} , {movie.Genre[1]} , {movie.Genre[2]} </h3></h3>
                 <br />
