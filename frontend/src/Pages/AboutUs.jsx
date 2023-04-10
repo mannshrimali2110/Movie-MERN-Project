@@ -45,7 +45,7 @@ export default function AboutUs() {
             </div>
             <div className="description">
               <hr />
-              <h3>Hetvi Kuvaradiya</h3>
+              <h3>Hetvi Kuvardiya</h3>
               <h5>Database Administrator</h5>
 
             </div>
