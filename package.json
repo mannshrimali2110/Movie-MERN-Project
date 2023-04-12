@@ -5,7 +5,8 @@
   "scripts": {
     "start": "concurrently \"npm run backend\" \"npm run frontend\"",
     "backend": "cd ./server && npm run dev",
-    "frontend": "cd ./frontend && npm start"
+    "frontend": "cd ./frontend && npm start",
+    "develop" : "npm install && cd ./server && npm install && cd.. && cd./frontend && npm install "
   },
   "author": "Mann Shrimali , Divija Panchal , Hetvi Kuvardiya",
   "license": "ISC",

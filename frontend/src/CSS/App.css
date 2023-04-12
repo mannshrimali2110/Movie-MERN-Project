@@ -21,12 +21,9 @@ body {
   list-style: none;
 }
 
-slider {
-  height: 90px;
+.navtext{
+color: goldenrod;
 }
-
-
-
 
 form {
   padding: 20px 25px;
@@ -35,7 +32,6 @@ form {
   display: block;
 
 }
-
 
 .custom-btn {
   width: 210px;
