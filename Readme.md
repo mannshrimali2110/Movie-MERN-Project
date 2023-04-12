@@ -1,6 +1,6 @@
 # INSTALLATION AND SETUP OF THE PROJECT :
 Clone the repository and run the following script in your Terminal :
-npm run develop
+" npm run develop "
 This shall install all the dependencies required.
 
 
