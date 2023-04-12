@@ -5,7 +5,7 @@ This shall install all the dependencies required.
 
 
 # DATABASE SETUP:
-a Database called 'movieDB' with a collection called 'movies' should be created when you upload the above script.
+a Database called 'movieDB' with a collection called 'movies' should be created when you run the above script.
 Import the CSV or JSON file in the Database.
 
 # Your Project is all set to run now.
