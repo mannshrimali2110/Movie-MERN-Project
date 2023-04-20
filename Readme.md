@@ -10,6 +10,8 @@ Import the CSV or JSON file in the Database.
 
 # Your Project is all set to run now.
 
+to run the project : 'npm start' [in the MERN CAPSTONE PROJECT folder] 
+
  Frontend : React dependencies
     "axios": "^1.3.4",
     "bootstrap": "^5.2.3",
