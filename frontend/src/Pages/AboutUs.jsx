@@ -32,7 +32,7 @@ export default function AboutUs() {
             </div>
             <div className="description">
               <hr />
-              <h3>Mann Shrimali</h3>
+              <h3> Mann Shrimali  </h3>
               <h5>Backend Developer</h5>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function AboutUs() {
             <Col></Col>
           </Row>
         </div>
-      </div>
+      </div >
 
     </>
   )

@@ -27,7 +27,7 @@ function Searchresult() {
     <>
     <div className="movielist"><br /><br />
       <div className="eight">
-        <h1>Genre </h1>
+        <h1>Genre Search Result</h1>
       </div>
       <br />
       <Row>

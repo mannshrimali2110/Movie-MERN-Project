@@ -12,7 +12,7 @@ export default function Movie() {
                 <h1>Genre </h1>
             </div>
             <br />
-            <Row>
+            <Row className="padrow">
                 <Col>
                     <Link to='/comedy'>
                         <div className="card">
@@ -82,7 +82,7 @@ export default function Movie() {
                 </Col>
             </Row>
             <br />
-            <Row>
+            <Row className="padrow">
                 <Col>
                     <Link to='/romance'>
                         <div className="card">

@@ -21,8 +21,8 @@ body {
   list-style: none;
 }
 
-.navtext{
-color: goldenrod;
+.navtext {
+  color: goldenrod;
 }
 
 form {
@@ -270,7 +270,6 @@ ul {
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
-  /* display: grid; */
   grid-template-columns: 1fr max-content 1fr;
   grid-template-rows: 27px 0;
   grid-gap: 20px;
@@ -284,4 +283,14 @@ ul {
 .movienm {
   color: #e91e63;
   text-decoration: none;
+}
+
+.docs {
+  text-decoration: none;
+  color: inherit;
+}
+
+.padrow{
+  padding-left: 30px;
+  padding-right: 30px;
 }

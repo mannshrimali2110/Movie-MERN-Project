@@ -70,7 +70,6 @@ function Genresearch() {
           <Col>
             <select className="drop" name="genre2" onChange={handleChange}>
               <option> Genre 2 </option>
-
               <option >Comedy</option>
               <option >Romance</option>
               <option >Horror</option>
