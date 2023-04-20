@@ -1,9 +1,8 @@
 const mongoose = require('mongoose');
 
-const mongoURL = 'mongodb://127.0.0.1:27017/movieDB';
 
 const myMongoConnect = () => mongoose.connect(
-    mongoURL,
+    process.env.mongoURL,
     {
         useNewUrlParser: true,
         useUnifiedTopology: true

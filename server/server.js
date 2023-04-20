@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require('cors');
+const dotenv = require('dotenv').config();
 const bodyParser = require('body-parser');
 const myMongoConnect = require('./Connection/mongoconnect');
 const apiRoute = require('./Routes/apiRoutes');
@@ -7,7 +8,7 @@ const apiRoute2 = require('./Routes/apiRoutes2');
 const apiRoute3 = require('./Routes/apiRoutes3');
 const apiRoute4 = require('./Routes/apiRoutes4');
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 const app = express();
 myMongoConnect();
 
