@@ -7,16 +7,15 @@ import Col from "react-bootstrap/Col";
 import { useNavigate } from "react-router-dom";
 
 function Genresearch() {
-  const [genres, setgenre] = useState({
-    genre1: "Default",
-    genre2: "Default"
-  });
+
+  const options = ['Comedy', 'Romance', 'Horror', 'Thriller', 'Drama', 'Action', 'Fantasy', 'Sci-Fi', 'Crime', 'Mystery'];
+
+  const [genre1, setGenre1] = useState("Default");
+  const [genre2, setGenre2] = useState("Default");
+
+  const genres = { genre1, genre2 }
 
   const navigate = useNavigate();
-
-  const handleChange = (e) => {
-    setgenre((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-  };
 
 
   const handleClick = async (e) => {
@@ -52,34 +51,22 @@ function Genresearch() {
         <Row>
           <Col></Col>
           <Col>
-            <select className="drop" name="genre1" onChange={handleChange}>
-              <option> Genre 1 </option>
-              <option >Comedy</option>
-              <option >Romance</option>
-              <option >Horror</option>
-              <option >Thriller</option>
-              <option >Drama</option>
-              <option >Action</option>
-              <option >Fantasy</option>
-              <option >Sci-Fi</option>
-              <option >Crime</option>
-              <option >Mystery</option>
+
+            <select className="drop" value={genre1} onChange={(event) => setGenre1(event.target.value)}>
+              <option>Genre 1</option>
+              {options.map((option) => (
+                option !== genre2 && <option key={option} value={option}>{option}</option>
+              ))}
             </select>
           </Col>
           <Col></Col>
           <Col>
-            <select className="drop" name="genre2" onChange={handleChange}>
-              <option> Genre 2 </option>
-              <option >Comedy</option>
-              <option >Romance</option>
-              <option >Horror</option>
-              <option >Thriller</option>
-              <option >Drama</option>
-              <option >Action</option>
-              <option >Fantasy</option>
-              <option >Sci-Fi</option>
-              <option >Crime</option>
-              <option >Mystery</option>
+
+            <select className="drop" value={genre2} onChange={(event) => setGenre2(event.target.value)}>
+              <option>Genre 2</option>
+              {options.map((option) => (
+                option !== genre1 && <option key={option} value={option}>{option}</option>
+              ))}
             </select>
           </Col>
           <Col></Col>
