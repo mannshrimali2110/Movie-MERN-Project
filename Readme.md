@@ -1,3 +1,13 @@
+# REQUIREMENTS:
+Node JS 
+https://nodejs.org/en/download
+
+MongoDB Community Server 
+https://www.mongodb.com/try/download/community
+
+MongoDB Compass
+https://www.mongodb.com/try/download/compass
+
 # INSTALLATION AND SETUP OF THE PROJECT :
 Clone the repository and run the following script in your Terminal :
 " npm run develop "
@@ -6,7 +16,7 @@ This shall install all the dependencies required.
 
 # DATABASE SETUP:
 a Database called 'movieDB' with a collection called 'movies' should be created when you run the above script.
-Import the CSV or JSON file in the Database.
+Import the CSV or JSON file from the 'Database' Folder.
 
 # Your Project is all set to run now.
 
