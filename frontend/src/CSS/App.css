@@ -4,8 +4,15 @@ body {
 
 .nav {
   background-color: #064663;
+  position: fixed;
   top: 0;
+  width: 100%;
+  z-index: 9999;
 }
+.content {
+    margin-top: 50px;
+}
+
 
 .im_m {
   align-items: center;
@@ -290,7 +297,7 @@ ul {
   color: inherit;
 }
 
-.padrow{
+.padrow {
   padding-left: 30px;
   padding-right: 30px;
 }

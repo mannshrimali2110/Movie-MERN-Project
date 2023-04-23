@@ -5,11 +5,11 @@ import Search from "./MovieSearch";
 
 export default function Home() {
   return (
-    <>
+    <div className="content">
       <Search />
       <MovieCarousel />
       <hr />
       <Genresearch />
-    </>
+    </div>
   );
 }

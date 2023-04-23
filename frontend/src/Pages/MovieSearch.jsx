@@ -25,7 +25,7 @@ function Search() {
   };
 
   return (
-    <>
+    <div className="content">
       <br />
       <div className="eight">
         <h1>CineFlicks</h1>
@@ -49,7 +49,7 @@ function Search() {
         </div>
       </div>
       <br />
-    </>
+    </div>
   );
 }
 

@@ -26,7 +26,7 @@ function Moviesearch() {
     console.log(movies);
 
     return (
-        <>
+        <div className="content">
             <div className="movielist"><br /><br />
                 <div className="eight">
                     <h1>Search Result </h1>
@@ -56,7 +56,7 @@ function Moviesearch() {
                     <Col></Col>
                 </Row>
             </div>
-        </>
+        </div>
     );
 }
 

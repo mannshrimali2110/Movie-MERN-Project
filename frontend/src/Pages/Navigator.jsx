@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar1() {
   return (
-    <>
+    <div className="content">
       <Navbar className="nav" bg="prop" variant="dark">
         <Container>
           <Navbar.Brand className="navtext">
@@ -22,6 +22,6 @@ export default function Navbar1() {
         </Container>
       </Navbar >
       <Outlet />
-    </>
+    </div>
   );
 }

@@ -5,7 +5,7 @@ import { Col, Row } from "react-bootstrap";
 export default function Movie() {
 
     return (
-        <>
+        <div className="content">
             <br />
             <br />
             <div className="eight">
@@ -152,6 +152,6 @@ export default function Movie() {
                 <Col>
                 </Col>
             </Row>
-        </>
+        </div>
     );
 }

@@ -4,7 +4,7 @@ import { Col } from 'react-bootstrap';
 export default function AboutUs() {
 
   return (
-    <>
+    <div className="content">
       <div className='eight'><br />
         <h1>Team Social Network</h1>
       </div>
@@ -74,6 +74,6 @@ export default function AboutUs() {
         </div>
       </div >
 
-    </>
+    </div>
   )
 }
