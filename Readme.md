@@ -14,14 +14,19 @@ Clone the repository and run the following script in your Terminal :
 This shall install all the dependencies required.
 
 
+
+# Run the Project :
+to run the project : 'npm start' [in the MERN CAPSTONE PROJECT folder] 
+
 # DATABASE SETUP:
 a Database called 'movieDB' with a collection called 'movies' should be created when you run the above script.
 Import the CSV or JSON file from the 'Database' Folder.
 
-# Your Project is all set to run now.
+#Note : No Movies will be displayed until you Import the CSV or JSON file in your database.
 
-to run the project : 'npm start' [in the MERN CAPSTONE PROJECT folder] 
+# Your Project is all set to run now. Enjoy!
 
+------------------------------------------------
  Frontend : React dependencies
     "axios": "^1.3.4",
     "bootstrap": "^5.2.3",
@@ -34,3 +39,4 @@ to run the project : 'npm start' [in the MERN CAPSTONE PROJECT folder]
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "mongoose": "^7.0.0"
+------------------------------------------------
